@@ -19,6 +19,6 @@ public class ThymeleafDemo {
         Person single = new Person("bigvideo", 2);
         model.addAttribute("single", single);
         //map.put("single", single);
-        return "index";
+        return "index2";
     }
 }
