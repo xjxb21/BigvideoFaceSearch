@@ -9,10 +9,11 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * Created by xiao on 2016/5/25.
  */
 
-@Configuration
+
+//@Configuration
 public class DatabaseConfig {
 
-    @Bean
+//    @Bean
     public DataSource dataSource() {
         /*
         DataSource dataSource = new DataSource();
@@ -29,7 +30,7 @@ public class DatabaseConfig {
         return getTomcatPoolingDataSource(url, username, pwd);
     }
 
-    @Bean
+//    @Bean
     public JdbcTemplate jdbcTemplate(DataSource dataSource) {
         return new JdbcTemplate(dataSource);
     }
