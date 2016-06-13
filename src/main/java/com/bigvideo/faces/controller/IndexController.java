@@ -14,20 +14,13 @@ public class IndexController {
     //域名访问响应
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
-        return "pages/index";
+        return "pages/searchFace1VN";
     }
 
-    //域名访问响应
+    //域名访问响应, index首页
     @RequestMapping(value = "/index.html", method = RequestMethod.GET)
     public String index_Html() {
-        return "pages/index";
+        return "pages/searchFace1VN";
     }
-
-    @RequestMapping(value = "/searchFace", method = RequestMethod.GET)
-    public String index_search() {
-        return "pages/searchFace";
-    }
-
-
 
 }
